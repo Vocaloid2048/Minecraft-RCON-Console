@@ -18,7 +18,7 @@ along with Minecraft-RCON-Console.  If not, see <http://www.gnu.org/licenses/>.
 
 require 'query.php';
 
-require '../config.php';
+require '../config_api.php';
 
 if(!isset($_POST["case"])) return;
 
